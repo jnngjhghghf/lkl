@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const db = require("quick.db")
 exports.run = async (client, message, args) => {
   if (!args[0]) {
-    return message.channel.send("Lütfen bir id yazın!")
+    return message.channel.send("795262958649081867")
   }
   message.channel.send("Pre aktif edildi amk!")
   return db.set(`premium_${args[0]}`, "aktif")
